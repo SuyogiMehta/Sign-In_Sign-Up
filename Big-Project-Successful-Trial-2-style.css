@@ -1,0 +1,255 @@
+#ent-prsnl-acnt {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+
+
+body {
+    overflow: hidden;
+}
+
+
+
+#choose-account {
+    position: relative;
+    background-color: yellow;
+    font-size: 20px;
+    border-color: transparent;
+    text-align: center;
+    margin: auto;
+    color: red;
+    height: 45px;
+    width: 150px;
+    border: 5px solid blue;
+}
+
+#create-account {
+    position: relative;
+    background-color: yellow;
+    font-size: 20px;
+    border-color: transparent;
+    text-align: center;
+    margin: auto;
+    color: red;
+    height: 45px;
+    width: 150px;
+    border: 5px solid blue;
+}
+
+
+
+label {
+    color: yellow;
+    font-size: 25px;
+}
+
+
+
+#UserName {
+    height: 30px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+}
+
+#UserName2 {
+    height: 30px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+}
+
+
+
+#password {
+    height: 30px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+}
+
+#password2 {
+    height: 30px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+}
+
+
+
+#pass-to-text {
+    height: 36px;
+    width: 60px;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    margin: auto;
+    font-size: 15px;
+    position: relative;
+    left: -6px;
+}
+
+#pass-to-text2 {
+    height: 36px;
+    width: 60px;
+    text-align: center;
+    background-color: yellow;
+    color: red;
+    margin: auto;
+    font-size: 15px;
+    position: relative;
+    left: -6px;
+}
+
+
+
+#inner-ent-prsnl-acnt {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 35%;
+    opacity: 0;
+    transition: linear 1s;
+}
+
+#inner-crt-nw-acnt {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    top: 10%;
+    opacity: 0;
+    transition: linear 1s;
+    left: 0px;
+}
+
+
+
+#track {
+    color: transparent;
+}
+
+
+
+#loading {
+    transition: 1s;
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(53, 3, 170);
+    overflow-x: hidden;
+    margin: auto;
+}
+
+#load {
+    color: chartreuse;
+    margin-top: 1%;
+    margin-left: 47%;
+}
+
+
+
+.fa {
+    color: chartreuse;
+    position: relative;
+    z-index: 1;
+    margin-top: 20%;
+    margin-left: 45%;
+}
+
+
+
+#med-ent-prsnl-acnt {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+#med-ent-prsnl-acnt-2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    margin: auto;
+    transition: linear 1s;
+}
+
+
+
+#sign-in {
+    position: relative;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    height: 45px;
+    width: 300px;
+    border: 5px solid blue;
+    left: 41.4%;
+    transition: linear 0.5s;
+    margin-top: 10%;
+}
+
+#sign-in-page {
+    transition: linear 0.5s;
+    margin-top: -10%;
+    margin-left: -5%;
+}
+
+
+
+#crt-nw-acnt {
+    position: relative;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    color: red;
+    height: 45px;
+    width: 300px;
+    border: 5px solid blue;
+    left: 41.4%;
+    transition: linear 0.5s;
+    margin-top: 10px;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+#loadingcheck {
+    opacity: 0;
+    color: transparent;
+}
+
+#names {
+    opacity: 0;
+    color: transparent;
+}
+
+#pass {
+    opacity: 0;
+    color: transparent;
+}
+
+#trial1 {
+    opacity: 0;
+    color: transparent;
+}

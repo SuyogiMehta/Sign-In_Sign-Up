@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Experiment (change) </title>
+    <script src="Big-Project-Successful-Trial-2-script.js"></script>
+    <link rel="stylesheet" href="Big-Project-Successful-Trial-2-style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="load()">
+
+    <div id="names"></div>
+
+    <div id="pass"></div>
+
+    <p id="trial1">0</p>
+
+    <p id="loadingcheck"></p>
+
+    <div id="ent-prsnl-acnt">
+        <img src="D:/Vijay's collection folder/HTML/images for html/windows-10-virtual-background.jpg"
+            id="med-ent-prsnl-acnt-2">
+        </img>
+
+        <div id="inner-ent-prsnl-acnt">
+            <label> Enter your user name: </label>
+            <input type="text" id="UserName" placeholder="Name"><br><br>
+            <label> Enter the password: </label>
+            <input type="password" id="password" placeholder="Password">
+            <button id="pass-to-text" onclick="typechange()"> Show </button><br><br>
+            <button id="choose-account" onclick="enterAccount()"><b>Submit</b></button>
+            <p id="track"></p>
+        </div>
+
+        <div id="inner-crt-nw-acnt">
+            <label> Type your user name: </label>
+            <input type="text" id="UserName2" placeholder="Name" onkeyup="validation()"><br><br>
+            <label> Select the password: </label>
+            <input type="password" id="password2" placeholder="Password">
+            <button id="pass-to-text2" onclick="typechange2()"> Show </button><br><br>
+            <button id="create-account" onclick="CreateAccount2()"><b>Submit</b></button>
+        </div>
+
+        <img src="D:/Vijay's collection folder/HTML/images for html/windows-10-virtual-background.jpg"
+            id="med-ent-prsnl-acnt">
+        </img>
+
+        <div id="sign-in-page">
+            <button id="sign-in" onclick="signIn()"> Sign In </button><br>
+            <button id="crt-nw-acnt" onclick="CreateAccount()"> Create a New Account </button>
+        </div>
+
+    </div>
+
+    <div id="loading">
+        <i class="fa fa-refresh fa-spin" style="font-size:120px;"></i>
+        <p id="load"> Loading... </p>
+    </div>
+
+</body>
+
+</html>
