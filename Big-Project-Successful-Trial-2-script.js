@@ -71,6 +71,7 @@ function enterAccount() {
             alert("Your username or password is incorrect. Please try again.");
         }
         if (password == pass && password != "") {
+            document.getElementById("trial1").innerHTML = "0";
             alert("Welcome " + UserName + ".");
         }
     }
